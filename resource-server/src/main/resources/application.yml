@@ -1,0 +1,18 @@
+server:
+  port: 9002
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql:///test?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+    username: root
+    password: 123456
+
+
+logging:
+  level:
+    com: debug
+
+rsa:
+  key:
+    pubKeyPath: C:\Users\BW003045\Desktop\auth_key\id_key_rsa.pub
